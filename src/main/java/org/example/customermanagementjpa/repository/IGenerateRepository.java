@@ -2,7 +2,7 @@ package org.example.customermanagementjpa.repository;
 
 import java.util.List;
 
-public interface IGenerateService<T> {
+public interface IGenerateRepository<T> {
     List<T> findAll();
 
     T findById(Long id);
